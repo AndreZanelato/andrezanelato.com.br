@@ -1,9 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f9;
+    background-color: #182c44;
 }
 header {
-    background-color: #343a40;
+    background-color: #000;
     color: white;
     padding: 20px 0;
 }
@@ -13,9 +13,9 @@ header {
 }
 .card-body {
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.11);
 }
 footer {
-    background-color: #343a40;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -29,4 +29,12 @@ footer {
 }
 .social-icons a:hover {
     color: #000;
+}
+
+h2 {
+    color: #fffdff;
+}
+
+p {
+    color: #fffdff;
 }
