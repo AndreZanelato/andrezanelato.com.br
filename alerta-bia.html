@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anúncio Bia</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #EACED8;
+            transition: background-color 0.5s;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        .highlight {
+            display: none;
+            font-size: 32px;
+            color: white;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #CD4B87;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #a93c6d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Está tudo certo com a Bia</h1>
+        <button onclick="revealBirth()">A Bia vai nascer</button>
+        <div class="highlight">A Bia está nascendo</div>
+    </div>
+
+    <script>
+        function revealBirth() {
+            document.body.style.backgroundColor = '#CD4B87';
+            document.querySelector('.highlight').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
