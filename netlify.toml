@@ -2,3 +2,8 @@
   from = "/alerta-bia"
   to = "/alerta-bia.html"
   status = 200
+
+[[redirects]]
+  from = "/drop-start-2"
+  to = "/drop-start-2.html"
+  status = 200
